@@ -1,0 +1,11 @@
+GET http://127.0.0.1:3000
+###
+GET http://127.0.0.1:3000/inicio/1/josue
+###
+POST http://127.0.0.1:3000/registrar
+Content-Type: application/json
+
+{
+    "id":3,
+    "nombre":"josue"
+}
